@@ -1,0 +1,47 @@
+html {
+  background: gray;
+}
+
+body {
+  background-color: white;
+  width: 700px;
+  text-align: center;
+  margin: 25px auto;
+  padding: 25px 0;
+  border-radius: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+hr {
+  width: 500px;
+}
+
+span {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+input {
+  width: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+
+#greenIn {
+  background-color: red;
+}
+
+#redIn {
+  background-color: green;
+}
+
+#bluen {
+  background-color: blue;
+}
