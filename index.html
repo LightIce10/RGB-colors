@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RGB Colors</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>RGB Colors</h1>
 
-    <p>An RGB Color is specified by: <span>rgb(red,green,blue)</span></p>
+    <p>
+      An RGB Color is specified by:
+      <span class="rgb-code">rgb(red,green,blue)</span>
+    </p>
 
     <p>
       The parameters red, green, and blue specify the intensity of the color:
@@ -26,13 +35,13 @@
       <input id="blueIn" type="number" value="0" />
     </p>
 
-    <p>--</p>
+    <p id="display">--</p>
 
     <p><button>Preview</button></p>
-    <p>rgb(255, 255, 0)</p>
+    <p class="rgb-code">rgb(255, 255, 0)</p>
     <hr />
 
-    <p>
+    <p class="lp">
       <a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank"
         >Learn more</a
       >

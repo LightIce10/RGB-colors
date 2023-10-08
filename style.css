@@ -1,5 +1,5 @@
 html {
-  background: gray;
+  background-image: url("rainbowBG.jpg");
 }
 
 body {
@@ -23,7 +23,7 @@ hr {
   width: 500px;
 }
 
-span {
+.rgb-code {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
@@ -32,6 +32,8 @@ input {
   width: 60px;
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
+  color: white;
+  text-align: center;
 }
 
 #greenIn {
@@ -42,6 +44,44 @@ input {
   background-color: green;
 }
 
-#bluen {
+#blueIn {
   background-color: blue;
+}
+
+#display {
+  width: 400px;
+  height: 200px;
+  background-color: yellow;
+  margin: auto;
+  border: 3px solid grey;
+}
+
+button {
+  background: grey;
+  color: white;
+  border-radius: 3px;
+  padding: 4px 11px;
+  cursor: pointer;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  color: #7cb58b;
+  background: black;
+}
+
+p {
+  letter-spacing: 2px;
+}
+
+.lp {
+  font-family: "New Tegomin", serif;
 }
