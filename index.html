@@ -29,17 +29,29 @@
     <hr />
 
     <h3>Try it yourself...</h3>
-
     <p>
-      red: <input id="redIn" type="number" value="255" /> green:
-      <input id="greenIn" type="number" value="255" /> blue:
-      <input id="blueIn" type="number" value="0" />
+      <i>Preview Width:</i><input id="widthIn" /> <i>Preview Height:</i
+      ><input id="heightIn" />
     </p>
-
+    <p>
+      red:
+      <input id="redIn" type="number" value="255" min="0" max="255" step="5" />
+      green:
+      <input
+        id="greenIn"
+        type="number"
+        value="255"
+        min="0"
+        max="255"
+        step="5"
+      />
+      blue:
+      <input id="blueIn" type="number" value="0" min="0" max="255" step="5" />
+    </p>
+    <p><button>Black</button> <button>White</button></p>
     <p id="display"></p>
 
-    <p><button id="preview">Preview</button></p>
-    <p class="rgb-code">rgb(255, 255, 0)</p>
+    <p class="rgb-code" id="rgb-line">rgb(255, 255, 0)</p>
     <hr />
 
     <p class="lp">
