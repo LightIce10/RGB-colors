@@ -78,10 +78,28 @@ button:hover {
   background: black;
 }
 
+#widthIn {
+  color: black;
+}
+
+#heightIn {
+  color: black;
+}
+
 p {
   letter-spacing: 2px;
 }
 
 .lp {
   font-family: "New Tegomin", serif;
+}
+
+#setBlack {
+  background-color: black;
+  color: white;
+}
+
+#setWhite {
+  background-color: white;
+  color: black;
 }

@@ -30,8 +30,24 @@
 
     <h3>Try it yourself...</h3>
     <p>
-      <i>Preview Width:</i><input id="widthIn" /> <i>Preview Height:</i
-      ><input id="heightIn" />
+      <i>Preview Width:</i
+      ><input
+        id="widthIn"
+        type="number"
+        value="400"
+        min="50"
+        max="400"
+        step="10"
+      />
+      <i>Preview Height:</i
+      ><input
+        id="heightIn"
+        type="number"
+        value="200"
+        min="50"
+        max="400"
+        step="10"
+      />
     </p>
     <p>
       red:
@@ -48,7 +64,9 @@
       blue:
       <input id="blueIn" type="number" value="0" min="0" max="255" step="5" />
     </p>
-    <p><button>Black</button> <button>White</button></p>
+    <p>
+      <button id="setBlack">Black</button> <button id="setWhite">White</button>
+    </p>
     <p id="display"></p>
 
     <p class="rgb-code" id="rgb-line">rgb(255, 255, 0)</p>
