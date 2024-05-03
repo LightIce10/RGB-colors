@@ -19,11 +19,7 @@ function previewBTN() {
   var r = +rVal.value;
   var g = +gVal.value;
   var b = +bVal.value;
-  let rgbString = "rgb(" + r + ", " + g + ", " + b + ")";
-
-  document.getElementById("display").style.background = `rgb(${r}, ${g}, ${b})`;
-  document.getElementById("rgb-line").innerHTML = rgbString;
-  // Contain colour values
+    // Contain colour values
   if (r < 0) {
     r = 0;
     rVal.value = 0;
@@ -45,8 +41,13 @@ function previewBTN() {
     bVal.value = 0;
   } else if (b > 255) {
     b = 255;
-    bVal.value = 0;
+    bVal.value = 255;
   }
+  let rgbString = "rgb(" + r + ", " + g + ", " + b + ")";
+
+  document.getElementById("display").style.background = `rgb(${r}, ${g}, ${b})`;
+  document.getElementById("rgb-line").innerHTML = rgbString;
+
 }
 
 function changeSize() {
@@ -73,8 +74,6 @@ function changeSize() {
 
 function blackBTN() {
   document.getElementById("display").style.background = "black";
-  
-  document.getElementById("display").style.background = "white";
   document.getElementById("rgb-line").innerHTML = "rgb(0, 0, 0)";
   rVal.value = 0
   gVal.value = 0
