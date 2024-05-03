@@ -74,7 +74,7 @@ function changeSize() {
 function blackBTN() {
   document.getElementById("display").style.background = "black";
   
-  document.getElementById("display").style.background = ;
+  document.getElementById("display").style.background = "white";
   document.getElementById("rgb-line").innerHTML = "rgb(0, 0, 0)";
   rVal.value = 0
   gVal.value = 0
